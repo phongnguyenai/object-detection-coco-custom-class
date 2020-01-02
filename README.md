@@ -25,7 +25,7 @@ COCO Dataset includes 81 classes:
 ```
 !pip3 install labelme
 ```
-- Label your dataset (https://github.com/wkentaro/labelme). When you finish there should be json files next to your images
+- Label your dataset (https://github.com/wkentaro/labelme). When you finish there should be json files next to your images. I store them in a folder named "trainval"
 - Download labelme2coco.py: https://github.com/Tony607/labelme2coco/blob/master/labelme2coco.py
 - Open label2coco.py to adjust the ID of custom class to avoid conflict with ID in COCO dataset
 ```
